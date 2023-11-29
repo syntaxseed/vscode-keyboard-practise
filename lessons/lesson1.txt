@@ -54,7 +54,7 @@ Part B: Search and Sidebar
 Part C: Review and Practise
 ----------------------------
 
-* Note: You now know how to navigate between the terminal, editors, and sidebar. You can search in all files or in a specific file. You can open or close editors and swap between them. In this practise section the keyboard shortcut won't be written, but feel free to scroll up in the lesson if you need a reminder. Use this step to help cement your memory.
+* Note: You now know how to navigate between the terminal, editors, and sidebar. You can search in all files or in a specific file. You can open or close editors and swap between them. In this practise section the keyboard shortcut won't be written, but feel free to scroll to the bottom for a recap. Use this step to help cement your memory.
 
 * Make sure all editors are closed.
 
@@ -73,6 +73,23 @@ Part C: Review and Practise
 GREAT JOB! You've finished the first lesson! Try to integrate these keyboard shortcuts into your typical workflow. It's a good idea to redo this lesson in a few days. Then once more a week after that.
 
 See you next lesson!
+
+Recap: Shortcuts Learned in This Lesson
+----------------------------------------
+
+ctrl+P = open file explorer and search for a file by name
+ctrl+` = open terminal / close terminal
+ctrl+tab = swap between open editors
+ctrl+W = close current editor
+ctrl+S = save current file
+ctrl+, = open settings
+ctrl+F = search within file
+ctrl+shift+F = search all files
+ctrl+B = toggle sidebar
+ctrl+shift+X = open extensions tab in sidebar
+ctrl+shift+E = open file explorer tree and toggle focus of tree
+ctrl+left/right arrow = navigate within text word by word
+
 
 
 
