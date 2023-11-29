@@ -1,0 +1,78 @@
+Lesson 1: Navigating Files, the Terminal, and Search
+======================================================
+
+"Don’t practice until you get it right. Practice until you can’t get it wrong." - Unknown
+
+Part A: Swapping Between Editors and Terminal
+----------------------------------------------
+
+* Begin: your focus should currently be in the VS Code terminal with no editor tabs open.
+
+* We have no files open, so open your first file by name by opening the file explorer with ctrl+P. Search for the foo.php file (you don't have to type the entire name) and hit enter to open it. This opens the file and focuses it.
+
+* To return to the terminal, type ctrl+`. Use this combo again to minimize the terminal and return to the editor. Once more use ctrl+` to open and focus the terminal.
+
+* To return to the editor without minimizing the terminal, hold ctrl and press tab. Hitting tab repeatedly will cycle through open editors if you have more than one. Let's practise this...
+
+* Use ctrl+P to now open functions.php. Return to the terminal with ctrl+`. Swap to either of your open files by holding ctrl and hitting tab repeatedly. You can do this from within an editor to quickly swap between open editors (tabs).
+
+* Swap to your open editors and close each one with ctrl+W.
+
+* If your terminal is currently open and you aren't using it to follow along with the lesson, switch to it with ctrl+` and use ctrl+` again to minimize it.
+
+Part B: Search and Sidebar
+---------------------------
+
+* Begin: All your editors should be closed.
+
+* Search all files with ctrl+shift+F. Search for the text 'string' without the single quotes. This should be found in multiple files.
+
+* Hit F4 to open the first result in a new editor. Press F4 again to open the next result. The searched term is highlighted and you can start typing to replace it. Change the string type in the checkName function (functions.php) to int. Press ctrl+S to save your change.
+
+* Swap to the other open editor(s) by holding ctrl and pressing tab repeatedly. Close all editors except functions.php with ctrl+W.
+
+* You should currently have only the functions.php file open which you have edited. Hold ctrl and use the arrow left/right keys to navigate word by word away from the type you edited.
+
+* Close the sidebar with ctrl+B. Use this again to open it. Close it one more time.
+
+* Note: some users prefer to configure the sidebar to the right of the screen, so that their code won't shift around when the sidebar is toggled. You can find this setting under Workbench>Side Bar: Location. Give this a try. Open settings with ctrl+, and search for 'side bar location'. Use the up and down arrows and enter to select the setting and change it. Use ctrl+W to close the settings.
+
+* Try opening and closing the sidebar a few times again with ctrl+B. Finish with the sidebar closed.
+
+* Hit ctrl+F to search within the open functions.php file. Search for the text 'int'. Hit enter repeatedly to cycle through the results. When the correct one is highlighted, press esc to close the search dialog. The text is highlighted and you can just type over it to change it back to string. Press ctrl+S to save the file. Close the file (and any others) with ctrl+W.
+
+* Looking at a VS Code with no editors open and no sidebar can leave us feeling adrift in our project. To review- we can open a file by name by using the file explorer and typing the file name. Or we can use ctrl+shift+F to search within the project and open a search result. Finally, we can view the file tree in the sidebar. Open the sidebar with ctrl+B.
+
+* If the sidebar doesn't currently show the file tree, suppose we had the extensions tab open with ctrl+shift+X. We can use ctrl+shift+E to swap to the file explorer tree. Pressing ctrl+shift+E repeatedly will toggle focusing the file tree itself. When focused we can navigate up and down the tree with the arrow up and down keys. Pressing enter on a directory will expand or collapse it. Press enter on a file to open it in an editor.
+
+* Use ctrl+shift+E again to return to the file explorer tree, navigate to a second file with the arrow keys. Then press enter to open a second file in an editor tab. Ctrl+B to close the sidebar.
+
+* Hold ctrl and press tab to toggle between open editors. Then close each one with ctrl+W.
+
+* From this point forward it is up to you if you prefer to close the sidebar with ctrl+B every time doing something opens it up. Or you might prefer to leave the sidebar always open. It can be nice either way - saving screen real estate or always having your file tree in view to orient yourself within your project. For the remaining lessons you will not be prompted to close the sidebar but you can.
+
+Part C: Review and Practise
+----------------------------
+
+* Note: You now know how to navigate between the terminal, editors, and sidebar. You can search in all files or in a specific file. You can open or close editors and swap between them. In this practise section the keyboard shortcut won't be written, but feel free to scroll up in the lesson if you need a reminder. Use this step to help cement your memory.
+
+* Make sure all editors are closed.
+
+* Open a file by name (foo.php).
+
+* Search within the file and change some text. Save your change.
+
+* Close the editor. Use the side bar and the file tree to navigate to foo.php again. Find and edit your change to put it back to what it was and save it.
+
+* Open the terminal. Return to your editor window without minimizing the terminal. Use the arrow keys to move around and then return to the terminal then close it. Close the file.
+
+* Search all files to find one with the word 'add'. Change this to a subtract function and edit the math in the return line. Close the file then open it again with the file explorer tree. Search within the file for the word 'subtract' then turn the function back into an add function. Save and close the file.
+
+-- 
+
+GREAT JOB! You've finished the first lesson! Try to integrate these keyboard shortcuts into your typical workflow. It's a good idea to redo this lesson in a few days. Then once more a week after that.
+
+See you next lesson!
+
+
+
